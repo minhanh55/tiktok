@@ -5,6 +5,7 @@ apt upgrade -y
 printf '\n\033[1;32m Tiến Hành Cài Python\033[0m\n\n'
 pkg install python -y
 pip install requests
+pip install pystyle
 curl -s https://raw.githubusercontent.com/minhanh55/tiktok/main/tiktok.py -o /sdcard/download/tiktok.py
 cd /sdcard/download
 
